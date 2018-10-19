@@ -5,16 +5,25 @@
     <title>Random</title>
   </head>
   <style>
-  h1 {
+  #titolo {
   color: rgb(2,3,4);
   font-family: sans-serif;
   }
+  .class {
+  color: #fe0000;
+
   </style>
   <body>
-  <h1>Chi sarà interrogato oggi??</h1>
-    <type button="Random" function="interrogato">
+  <h1 id="titolo">Chi sarà interrogato oggi??</h1>
+  <p class="class">BUONA FORTUNA!!</p>
+ 
+    <type button="Random" onclick="interrogato()"/>
+    <p class="class">Poi ditemi com'ì anadta eh (-;</p>
   <script>
-  functions MyFunction(interrogato) {
-  Math.floor((Math.random() * 13) + 1);
+  function interrogato() {
+  document.write="Ciao!"
+  }
+  </script>
+  
   </body>
 </html>
