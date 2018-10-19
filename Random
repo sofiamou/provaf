@@ -11,6 +11,7 @@
   }
   .class {
   color: #fe0000;
+  }
 
   </style>
   <body>
@@ -18,7 +19,7 @@
   <p class="class">BUONA FORTUNA!!</p>
  
     <type button="Random" onclick="interrogato()"/>
-    <p class="class">Poi ditemi com'ì anadta eh (-;</p>
+    <p class="class">Poi ditemi com'è andata eh (-;</p>
   <script>
   function interrogato() {
   document.write="Ciao!"
@@ -26,4 +27,4 @@
   </script>
   
   </body>
-</html>
+ </html>
