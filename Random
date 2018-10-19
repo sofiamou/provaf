@@ -1,1 +1,20 @@
-DOCTYPE!
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Random</title>
+  </head>
+  <style>
+  h1 {
+  color: rgb(2,3,4);
+  font-family: sans-serif;
+  }
+  </style>
+  <body>
+  <h1>Chi sarà interrogato oggi??</h1>
+    <type button="Random" function="interrogato">
+  <script>
+  functions MyFunction(interrogato) {
+  Math.floor((Math.random() * 13) + 1);
+  </body>
+</html>
