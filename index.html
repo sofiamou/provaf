@@ -27,6 +27,12 @@ function interrogato() {
   var x = document.getElementById("demo")
   x.innerHTML = Math.floor((Math.random()* 13) + 1);
   }
+    var list = ["Ilan Cohen", "Tal Deil", "Micol Gorjian", "Liah Gueron", "Simon Guetta","Vittorio Halfon", "Yoel Hafez","Eyal Kohanan","Clara Laoui","Itzchak Matatyau","Yuri Moghadam", "Sofia Mouhadab", "Tal Shreiber", "Thomas Sigone", "Eitan Zelnick", "Samuel Zuskis"];
+onEvent("button1", "click", function(event) {
+  var n = randomNumber(0, 16);
+  setText("label1", list[n]);
+});
+
   </script>
   
   </body>
